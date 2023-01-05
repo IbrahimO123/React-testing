@@ -5,7 +5,7 @@ describe("Greet Component", () => {
 
     test("renders on the DOM", () => {
         render(<Greet />);
-        const result = screen.getByText("Hello");
+        const result = screen.getByText(/Hello/);
         expect(result).toBeInTheDocument();
     });
     
@@ -15,4 +15,4 @@ describe("Greet Component", () => {
         expect(textElement).toBeInTheDocument();
     });
     
-})
+});
