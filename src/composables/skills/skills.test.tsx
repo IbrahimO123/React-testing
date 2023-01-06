@@ -11,7 +11,7 @@ describe("Skills", () => {
   test("renders a list of skills", () => {
     const skills = ["HTML", "CSS", "JavaScript", "React"];
     render(<Skills skills={skills} />);
-    const listItemElement = screen.getAllByRole("listitem");
-    expect(listItemElement).toHaveLength(skills.length);
+    const listItemElements = screen.getAllByRole("listitem");
+    expect(listItemElements).toHaveLength(skills.length);
   });
 });
