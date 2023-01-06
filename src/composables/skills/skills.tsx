@@ -1,13 +1,12 @@
-import React from "react";
 import { SkillProps } from "./skill-types";
 
-export const skills = (props: SkillProps) => {
+export const Skills = (props: SkillProps) => {
   const { skills } = props;
   return (
-    <div>
+    <ul>
       {skills.map((skill, index) => (
-        <div key={index}>{skill}</div>
+        <li key={index}>{skill}</li>
       ))}
-    </div>
+    </ul>
   );
 };
