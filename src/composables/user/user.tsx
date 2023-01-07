@@ -10,7 +10,7 @@ export const User = () => {
         setUsers(data.map((user: { name: string }) => user.name));
       })
       .catch(() => setError("Error fetching users"));
-  },[]);
+  }, []);
   return (
     <div>
       <h1>Users</h1>

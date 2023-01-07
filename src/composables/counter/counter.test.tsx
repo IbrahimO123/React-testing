@@ -46,7 +46,7 @@ describe("Counter", () => {
     expect(countHeading).toHaveTextContent("10");
   });
   test("tab focus on the element displayed on the screen", async () => {
-    user.setup()
+    user.setup();
     render(<Counter />);
     const incrementButton = screen.getByRole("button", { name: "increment" });
     await user.tab();

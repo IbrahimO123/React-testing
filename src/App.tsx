@@ -3,7 +3,7 @@ import "./App.css";
 // import { Skills } from "./composables/skills/skills";
 import { Counter } from "./composables/counter/counter";
 import { AppProviders } from "./providers/app-provider";
-import { MuiMode } from './composables/mui-mode/mui-mode';
+import { MuiMode } from "./composables/mui-mode/mui-mode";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         {/* <Application />
       <Skills/> */}
         <Counter />
-        <MuiMode/>
+        <MuiMode />
       </div>
     </AppProviders>
   );
