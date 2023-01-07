@@ -1,16 +1,21 @@
 import "./App.css";
-import { Application } from "./composables/application/application";
+// import { Application } from "./composables/application/application";
+// import { Skills } from "./composables/skills/skills";
 import { Counter } from "./composables/counter/counter";
-import { Skills } from "./composables/skills/skills";
+import { AppProviders } from "./providers/app-provider";
+import { MuiMode } from './composables/mui-mode/mui-mode';
 
 function App() {
   return (
-    <div className="App">
-      Learn React
-      <Application />
-      <Skills/>
-      <Counter/>
-    </div>
+    <AppProviders>
+      <div className="App">
+        Learn React
+        {/* <Application />
+      <Skills/> */}
+        <Counter />
+        <MuiMode/>
+      </div>
+    </AppProviders>
   );
 }
 
