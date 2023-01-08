@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+## React Testing
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Learned and practice how to preform testing on React components, functions and custom hooks, http calls (API usage) among others.
+#### Identifying  a test file by Jest
+- *.test.js or *.test.tsx
+- *.spec.js or *.spec.tsx
+Or a folder named __tests__
+#### Carried Out the the testing we have
 
-## Available Scripts
+- Unit tests
+- Integration tests
+- End to End tests (E2E)
 
-In the project directory, you can run:
+Also carried out the TDD Testing, stands for Test Driven Development Testing, which is writing out the tests to be carried out first before writing code, or functions to passed them.
 
-### `npm start`
+#### Static Testing Analysis
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Testing to ensure your code is of the best standard possible, which can be done through some packages or lanaguage like:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- TypeScript - Ensure the right type of parameters is passed and returned
+- Lint - Ensure the right methods are used, or one implemented function accordingly to best practice.
+- Pretier - Helps to remove unnecessary spaces and indentation
+- Husky - Ensure every developer(s) write code for that particular project or repo are using the standard ways.
 
-### `npm test`
+#### Technologies and Libaries Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Prettier
+- Eslint
+- MSW (Mock Service Worker)
+- Lint-staged
+- Husky
+-
+Methodes Learnt and Used
+- How to test components, functions and custom hooks in React
+- How to check your test coverage 
+- How to use mock services worker for http testing
+- How to configure mock services worker
+- How to install and configure husky
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Side Note: 
+ Got to know jest, react testing libraries are pre-installed with React
