@@ -30,7 +30,7 @@ Testing to ensure your code is of the best standard possible, which can be done 
 - Lint-staged
 - Husky
 -
-Methodes Learnt and Used
+Methods Learnt and Used
 - How to test components, functions and custom hooks in React
 - How to check your test coverage 
 - How to use mock services worker for http testing
