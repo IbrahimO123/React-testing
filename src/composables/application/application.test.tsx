@@ -40,6 +40,8 @@ describe("Application", () => {
 
     const submitElement = screen.getByRole("button");
     expect(submitElement).toBeInTheDocument();
-    expect(submitElement).toBeDisabled();
+
+    
+    expect(submitElement).not.toBeEnabled();
   });
 });
