@@ -30,7 +30,8 @@
     "lint": "eslint --ignore-path .gitignore .",
     "format": "prettier --ignore-path .gitignore --write \"**/*.{ts,tsx,css,scss}\"",
     "eject": "react-scripts eject",
-    "coverage": "react-scripts test --coverage"
+    "coverage": "react-scripts test --coverage",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -64,6 +65,7 @@
   },
   "devDependencies": {
     "@testing-library/user-event": "^14.4.3",
-    "msw": "^0.49.2"
+    "msw": "^0.49.2",
+    "husky": "^8.0.0"
   }
 }
