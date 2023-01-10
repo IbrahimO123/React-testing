@@ -4,7 +4,7 @@ Learned and practice how to preform testing on React components, functions and c
 #### Identifying  a test file by Jest
 - *.test.js or *.test.tsx
 - *.spec.js or *.spec.tsx
-Or a folder named "__tests__"
+Or a folder named \__tests\__
 #### Carried Out the the testing we have
 
 - Unit tests
